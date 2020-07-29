@@ -2,16 +2,12 @@
     include("includes/database.php");
     include("includes/function.php");
     if (($_SERVER['REQUEST_URI'] === '/index.php') || ($_SERVER['REQUEST_URI'] === '/index.php/')) {
-      #header('Location: https://www.decorpot.com');
       header('Location: http://localhost/naracinew/');
     }
-    #$sitefullpath="https://www.decorpot.com/";
     $sitefullpath="http://localhost/naracinew/";
     $urlnew1 =explode('/',parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
     $urlnew=end($urlnew1);
     $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-    //echo $_SERVER['HTTP_HOST'];
-    #if($_SERVER['HTTP_HOST']=='www.decorpot.com' && $urlnew==''){
     if ($_SERVER['HTTP_HOST']=='http://localhost/' && $urlnew=='') {
         $sqlmeta="SELECT * FROM metainfo WHERE url='home'";
         $rowmeta = mysqli_query($connection,$sqlmeta);
@@ -54,16 +50,12 @@
     <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/css/bootstrap.min.css">
     <!-- fontawesome icon  -->
     <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/css/fontawesome.min.css">
-    <!-- flaticon css -->
-    <!-- <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/fonts/flaticon.css"> -->
     <!-- animate.css -->
     <!-- <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/css/animate.css"> -->
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/css/owl.carousel.min.css">
     <!-- magnific popup -->
     <!-- <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/css/magnific-popup.css"> -->
-    <!-- vector map css -->
-    <!-- <link rel="stylesheet" href="assets/css/jquery-jvectormap-2.0.3.css"> -->
     <!-- stylesheet -->
     <link rel="stylesheet" href="<?php echo $sitefullpath?>assets/css/style.css">
     <!-- responsive -->
