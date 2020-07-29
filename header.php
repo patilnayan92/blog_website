@@ -83,7 +83,7 @@
 
         
     <!-- Modal -->
-    <!-- <div class="modal modal-registration fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal modal-registration fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
         <div class="modal-content">
             <ul class="nav nav-tabs" id="myTab-modal" role="tablist">
@@ -119,7 +119,7 @@
             </div>
         </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- header begin -->
     <div class="header">
@@ -140,12 +140,12 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:info@naraci.com">
+                                    <a href="mailto:info@gmail.com">
                                         <span class="part-icon">
                                             <i class="far fa-envelope"></i>
                                         </span>
                                         <span class="text">
-                                            info@naraci.com 
+                                            info@gmail.com 
                                         </span>
                                     </a>
                                 </li>
@@ -175,7 +175,7 @@
                             <div class="col-xl-12 col-lg-12 col-6 d-xl-block d-lg-block d-flex align-items-center">
                                 <div class="logo">
                                     <a href="<?php echo $sitefullpath?>index.php">
-                                        <img src="<?php echo $sitefullpath?>assets/img/naraci-updated.png" alt="">
+                                        Logo
                                     </a>
                                 </div>
                             </div>
@@ -192,16 +192,6 @@
                               
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav ml-auto">
-                                        <!-- <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Home
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                                <a class="dropdown-item" href="index.html">Home One</a>
-                                                <a class="dropdown-item" href="index-2.html">Home Two</a>
-                                                <a class="dropdown-item" href="index-3.html">Home Three</a>
-                                            </div>
-                                        </li> -->
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo $sitefullpath?>index.php">Home</a>
                                         </li>
@@ -211,34 +201,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo $sitefullpath?>feature.php">Features</a>
                                         </li>
-                                        <!-- <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Drone
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                                                <a class="dropdown-item" href="product-agriculture.html">Agriculture</a>
-                                                <a class="dropdown-item" href="product-camera.html">Camera</a>
-                                            </div>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                accessories
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
-                                                <a class="dropdown-item" href="product-agriculture.html">Agriculture</a>
-                                                <a class="dropdown-item" href="product-camera.html">Camera</a>
-                                            </div>
-                                        </li> 
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Blog
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="blog-1.html">Blog One</a>
-                                                <a class="dropdown-item" href="blog-2.html">Blog Two</a>
-                                                <a class="dropdown-item" href="blog-details.html">Blog Details</a>
-                                            </div>
-                                        </li>-->
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo $sitefullpath?>blog.php">Blog</a>
                                         </li>
